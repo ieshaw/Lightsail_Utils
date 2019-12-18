@@ -25,6 +25,12 @@ git push
 
 The push command will ask for your credentials, but now they will be stored.
 
+To pull down a local copy of a remote non-master branch to work on
+
+```
+git checkout --track origin/branch_name
+```
+
 ## Python
 
 To install Python 3.5
