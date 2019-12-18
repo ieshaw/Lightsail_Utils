@@ -37,6 +37,7 @@ To install Python 3.5
 
 ```
 sudo yum install python35 -y
+sudo pip install --upgrade pip
 ``` 
 
 
