@@ -1,0 +1,9 @@
+filetype on
+syntax on
+set foldmethod=indent
+set foldenable
+filetype plugin indent on
+set shiftwidth=4
+set tabstop=4
+set expandtab
+set number

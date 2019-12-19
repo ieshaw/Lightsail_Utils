@@ -40,4 +40,10 @@ sudo yum install python35 -y
 sudo pip install --upgrade pip
 ``` 
 
+##
 
+To Make the local vim the setting on the machine, run
+
+```
+cp my_vimrc.txt ~/.vimrc
+```
