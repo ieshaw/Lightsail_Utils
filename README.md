@@ -13,7 +13,7 @@ sudo yum install git -y
 Then clone this repo
 
 ```
-git clone <this repo link>
+git clone https://github.com/ieshaw/Lightsail_Utils.git
 ```
 
 If you want to store your credentials (be careful, stroed as plain text) run this command
