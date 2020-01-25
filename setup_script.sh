@@ -1,7 +1,8 @@
 #!/bin/bash
 
-sudo yum install python35 -y
+sudo yum install python35 tmux python35-devel gcc gdb -y
 sudo pip3 install --upgrade pip
-sudo yum install tmux -y
-sudo yum install python35-devel -y
+git clone https://github.com/pwndbg/pwndbg
+cd pwndbg
+./setup.sh
 cp my_vimrc.txt ~/.vimrc
