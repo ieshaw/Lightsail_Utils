@@ -6,3 +6,5 @@ sudo pip3 install --upgrade pip
 git clone https://github.com/pwndbg/pwndbg
 cd pwndbg
 ./setup.sh
+cd ..
+git config --global credential.helper store
