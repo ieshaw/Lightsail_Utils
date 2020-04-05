@@ -56,7 +56,7 @@ cp my_vimrc.txt ~/.vimrc
 
 3.Open a new terminal 
 
-4`.ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ec2-user@public_ip_here` 
+4. `ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ec2-user@public_ip_here` 
 
 5.If you get a “ WARNING: UNPROTECTED PRIVATE KEY FILE!” Then run this command `chmod 400 path_to_private_key.pem` 
 
