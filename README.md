@@ -50,6 +50,8 @@ cp my_vimrc.txt ~/.vimrc
 
 ## Jupyter Notebook
 
+Praise goes to @rskuzma for figuring this out
+
 1. Ssh into lightsail instance using light sail privatekey 
 
 2. `$ jupyter notebook --no-browser --port=8888 `
