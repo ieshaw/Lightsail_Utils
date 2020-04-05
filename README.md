@@ -52,13 +52,13 @@ cp my_vimrc.txt ~/.vimrc
 
 1.Ssh into lightsail instance using light sail privatekey 
 
-2.$ jupyter notebook --no-browser --port=8888 
+2.`$ jupyter notebook --no-browser --port=8888 `
 
 3.Open a new terminal 
 
-4.ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ec2-user@public_ip_here 
+4`.ssh -i thisIsmyKey.pem -L 8000:localhost:8888 ec2-user@public_ip_here` 
 
-5.If you get a “ WARNING: UNPROTECTED PRIVATE KEY FILE!” Then run this command chmod 400 path_to_private_key.pem 
+5.If you get a “ WARNING: UNPROTECTED PRIVATE KEY FILE!” Then run this command `chmod 400 path_to_private_key.pem` 
 
 6.Go to localhost:8000 in browser 
 
@@ -66,9 +66,9 @@ cp my_vimrc.txt ~/.vimrc
 
 8.In your ssh window that’s now on your lights tail instance 
 
-9.type $ jupyter notebook list 
+9.type `$ jupyter notebook list `
 
-10.Copy the part behind ’token=' 
+10.Copy the part behind `token=` 
 
 11.Paste that token into the jupyter notebook login page 
 
