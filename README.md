@@ -48,6 +48,14 @@ To Make the local vim the setting on the machine, run
 cp my_vimrc.txt ~/.vimrc
 ```
 
+## Tmux
+
+To make a tmux session that supports two PEP8 Python Scripts (each around 79 characters wide) and a second pane for runnign the python, you can run this command to resize the code-editing pane
+
+```
+ctrl+b : resize-pane -x 167
+```
+
 ## Jupyter Notebook
 
 Praise goes to @rskuzma for figuring this out
